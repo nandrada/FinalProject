@@ -16,10 +16,12 @@ public class PlayerMovement : MonoBehaviour
 
 	private void FixedUpdate()
 	{
+		// Getting horizontal and vertical movement and adding it to a movement vector
 		float moveHorizontal = Input.GetAxis("Horizontal");
 		float moveVertical = Input.GetAxis("Vertical");
 		Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
 
+		// Adding movement vector * speed to player rigidbody
 		rb.AddForce(movement * speed);
 	}
 }

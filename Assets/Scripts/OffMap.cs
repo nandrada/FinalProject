@@ -11,6 +11,7 @@ public class OffMap : MonoBehaviour
 	}
 	private void OnCollisionEnter(Collision collision)
 	{
+		// reload scene if player enters reset box
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 		Debug.Log("Player has entered area of no return");
 	}
