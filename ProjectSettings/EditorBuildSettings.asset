@@ -4,5 +4,26 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main Menu/Menu.unity
+    guid: aae38b34d83061d43927f2b8781ff9fb
+  - enabled: 1
+    path: Assets/Scenes/Main Menu/Amount_players.unity
+    guid: fdbaf17568043424997d4fbf425cccb9
+  - enabled: 1
+    path: Assets/Scenes/Main Menu/Level_difficulty.unity
+    guid: 9842e3b73aa767649bcd4d193b3ed69b
+  - enabled: 1
+    path: Assets/Scenes/Main Menu/options.unity
+    guid: d3381389eb35e9342a88903417393253
+  - enabled: 1
+    path: Assets/Scenes/Main Menu/Maps_easy.unity
+    guid: 95ed8ba72db429248a6137d3660eaf32
+  - enabled: 1
+    path: Assets/Scenes/Main Menu/Maps_Medium.unity
+    guid: 4c68485406bc1794f9d1573205d7fd43
+  - enabled: 1
+    path: Assets/Scenes/Main Menu/Maps_hard.unity
+    guid: b26457d08e5d36148b4cbb96866aa3fc
   m_configObjects: {}
