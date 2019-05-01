@@ -64,6 +64,7 @@
      <Compile Include="Assets\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\cameraController2.cs" />
      <Compile Include="Assets\Scripts\EasyPlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\MeshRendererHide.cs" />
      <Compile Include="Assets\Scripts\OffMap.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\WinScript.cs" />
