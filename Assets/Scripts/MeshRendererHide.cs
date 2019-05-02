@@ -4,11 +4,9 @@ using UnityEngine;
 
 public class MeshRendererHide : MonoBehaviour
 {
-	private void OnTriggerEnter(Collider other)
+
+	private void OnCollisionEnter(Collision other)
 	{
-		if (other.tag == "Player")
-		{
-			this.GetComponent<MeshRenderer>().enabled = false;
-		}
+		gameObject.GetComponent<Renderer>().enabled = false;
 	}
 }

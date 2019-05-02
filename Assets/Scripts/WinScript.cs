@@ -17,7 +17,7 @@ public class WinScript : MonoBehaviour
 	{
 		if (other.tag == "Player")
 		{
-			Time.timeScale = 0;
+			
 			Debug.Log("YOU WIN!!");
 			winText.text = "Level Complete!";
 			WaitForSecondsRealtime(10);
