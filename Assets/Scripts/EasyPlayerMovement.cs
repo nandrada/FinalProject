@@ -8,12 +8,15 @@ public class EasyPlayerMovement : MonoBehaviour
     public float speed;
     public float jumpForce;
     public int jumpHeight;
+    public Vector3 startPos;
     private Rigidbody rb;
+
 
 	// Start is called before the first frame update
 	 void Start()
 	 {
         rb = GetComponent<Rigidbody>();
+        startPos = transform.position;
 	 }
 
     private void FixedUpdate()
@@ -46,7 +49,8 @@ public class EasyPlayerMovement : MonoBehaviour
         }
         else if(other.CompareTag("Respawn"))
         {
-            transform.position = new Vector3(1.5f, 1.1f, 0.5f);
+            transform.position = startPos;
+            rb.velocity = new Vector3(0.0f, 0.0f, 0.0f);
         }else if(other.CompareTag("Easter"))
         {
             // go to start for now 
@@ -62,7 +66,7 @@ public class EasyPlayerMovement : MonoBehaviour
     {
         yield return new WaitForSeconds(3);
 
-        transform.position = new Vector3(1.5f, 1.1f, 0.5f);
+        transform.position = startPos;
 
     }
 
