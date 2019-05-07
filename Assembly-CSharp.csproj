@@ -629,7 +629,11 @@
     <Compile Include="Assets\Scripts\cameraController2.cs" />
     <Compile Include="Assets\Scripts\EasyPlayerMovement.cs" />
     <Compile Include="Assets\Scripts\FinishEasyLevel2.cs" />
+    <Compile Include="Assets\Scripts\MeshRendererHide.cs" />
+    <Compile Include="Assets\Scripts\OffMap.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\WinScript.cs" />
+    <Compile Include="Assets\Scripts\WinScript2.cs" />
     <None Include="Assets\Fungus\Thirdparty\ThirdPartyNotices.txt" />
     <None Include="Assets\ProCore\ProBuilder\Shader\pb_TransparentOverlay.shader" />
     <None Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\README.txt" />
