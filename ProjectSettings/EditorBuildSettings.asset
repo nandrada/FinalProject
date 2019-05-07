@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Hard Levels/Hard Level 1.unity
+    guid: f42be4791d5d59949aedba2684a1fe3a
+  - enabled: 1
+    path: Assets/Scenes/Hard Levels/Hard Level 2.unity
+    guid: cb2de143843ebd449a0608ed0ccde85f
   m_configObjects: {}
