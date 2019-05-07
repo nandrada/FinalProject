@@ -19,5 +19,7 @@ public class cameraController2 : MonoBehaviour
     {
         // updating the camera to that position every frame
         transform.position = player.transform.position + offset;
+
     }
+
 }

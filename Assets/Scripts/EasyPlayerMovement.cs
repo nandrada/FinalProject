@@ -49,38 +49,21 @@ public class EasyPlayerMovement : MonoBehaviour
         }
         else if(other.CompareTag("Respawn"))
         {
-            transform.position = startPos;
-            rb.velocity = new Vector3(0.0f, 0.0f, 0.0f);
-        }else if(other.CompareTag("Easter"))
-        {
-            // go to start for now 
-            transform.position = new Vector3(1.5f, 1.1f, 0.5f);
-            // write code to pause the scene, 
-            // display that the easter egg has been found, 
-            // display the creator of the level for this level
-            // think of more options to do for an easter egg ex. colors, ball attributes, etc...
+            respawn();
         }
+    }
+
+    public void respawn()
+    {
+        transform.position = startPos;
+        rb.velocity = new Vector3(0.0f, 0.0f, 0.0f);
     }
 
     public IEnumerator endGame()
     {
         yield return new WaitForSeconds(3);
 
-        transform.position = startPos;
+        respawn();
 
-    }
-
-    public IEnumerator easterEgg()
-    {
-        // display that the easter egg has been found,
-        // display the creator of the level for this level
-
-        // wait for 5 seconds
-        yield return new WaitForSeconds(5);
-
-        // think of more options to do for an easter egg ex. colors, ball attributes, etc...
-        
-        // go to start  
-        transform.position = new Vector3(1.5f, 1.1f, 0.5f);
     }
 }
