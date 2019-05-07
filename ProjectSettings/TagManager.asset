@@ -4,8 +4,13 @@
 TagManager:
   serializedVersion: 2
   tags:
+<<<<<<< HEAD
+  - music
+  - slider
+=======
   - Easter
   - End
+>>>>>>> 7aa9965cf7619b50f8e8fa1d9bd7f5c6f187bcf3
   layers:
   - Default
   - TransparentFX
