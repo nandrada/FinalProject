@@ -5,12 +5,20 @@ TagManager:
   serializedVersion: 2
   tags:
 <<<<<<< HEAD
+  - Wall
+  - left wall
+  - right wall
+  - untouchable
+  - end game
+=======
+<<<<<<< HEAD
   - music
   - slider
 =======
   - Easter
   - End
 >>>>>>> 7aa9965cf7619b50f8e8fa1d9bd7f5c6f187bcf3
+>>>>>>> fdcace5f3023d7469dc609e0cb50c3d1f68f1fd6
   layers:
   - Default
   - TransparentFX

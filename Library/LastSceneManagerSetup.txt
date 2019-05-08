@@ -1,1 +1,9 @@
+<<<<<<< HEAD
+sceneSetups:
+- path: Assets/Scenes/Medium Levels/Medium Level 2.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
+=======
 sceneSetups: []
+>>>>>>> fdcace5f3023d7469dc609e0cb50c3d1f68f1fd6
