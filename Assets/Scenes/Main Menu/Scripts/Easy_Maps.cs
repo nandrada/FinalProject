@@ -10,4 +10,16 @@ public class Easy_Maps : MonoBehaviour
     {
         SceneManager.LoadScene(2);
     }
+    public void Map1()
+    {
+        SceneManager.LoadScene(6);
+    }
+    public void Map2()
+    {
+        SceneManager.LoadScene(7);
+    }
+    public void Map3()
+    {
+        SceneManager.LoadScene(8);
+    }
 }

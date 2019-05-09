@@ -6,7 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-<<<<<<< HEAD
     path: Assets/Scenes/Main Menu/Menu.unity
     guid: aae38b34d83061d43927f2b8781ff9fb
   - enabled: 1
@@ -24,11 +23,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main Menu/Maps_hard.unity
     guid: b26457d08e5d36148b4cbb96866aa3fc
-=======
-    path: Assets/Scenes/Hard Levels/Hard Level 1.unity
+  - enabled: 1
+    path: Assets/Scenes/Main Menu/Easy Levels/Easy Level 1.unity
+    guid: a2acdd8ff0f76ef419bbdcf8cd8a1037
+  - enabled: 1
+    path: Assets/Scenes/Main Menu/Easy Levels/Easy Level 2.unity
+    guid: 9b8ecbca417b54e528cc1aee7a9cf696
+  - enabled: 1
+    path: Assets/Scenes/Main Menu/Easy Levels/Easy Level 3.unity
+    guid: 88573c840e7ac44adb3c3f30413ae8bb
+  - enabled: 1
+    path: Assets/Scenes/Main Menu/Medium Levels/Medium Level 1.unity
+    guid: c8bf9ead4766cea44af4e5fcb143493a
+  - enabled: 1
+    path: Assets/Scenes/Main Menu/Medium Levels/Medium Level 2.unity
+    guid: b44237408bcf3cb47bbcdc0351dbff55
+  - enabled: 1
+    path: Assets/Scenes/Main Menu/Hard Levels/Hard Level 1.unity
     guid: f42be4791d5d59949aedba2684a1fe3a
   - enabled: 1
-    path: Assets/Scenes/Hard Levels/Hard Level 2.unity
+    path: Assets/Scenes/Main Menu/Hard Levels/Hard Level 2.unity
     guid: cb2de143843ebd449a0608ed0ccde85f
->>>>>>> fd50ee9540abc3fff43d988859fd75290cf20950
   m_configObjects: {}

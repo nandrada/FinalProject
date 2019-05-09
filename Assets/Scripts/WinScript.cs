@@ -26,6 +26,6 @@ public class WinScript : MonoBehaviour
 
 	private void WaitForSecondsRealtime(int v)
 	{
-		SceneManager.LoadScene("Hard Level 2");
+		SceneManager.LoadScene(2);
 	}
 }
