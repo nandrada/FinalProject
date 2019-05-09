@@ -8,11 +8,8 @@ public class PlayerMovement : MonoBehaviour
 {
 	public float speed;
 	private Rigidbody rb;
-<<<<<<< HEAD:Assets/PlayerMovement.cs
     public Vector3 startingPosition;
-=======
 	public float RotateSpeed = 30.0f;
->>>>>>> fdcace5f3023d7469dc609e0cb50c3d1f68f1fd6:Assets/Scripts/PlayerMovement.cs
 
     // Create a temporary reference to the current scene.
     Scene currentScene = SceneManager.GetActiveScene();

@@ -11,4 +11,12 @@ public class Hard_Maps : MonoBehaviour
     {
         SceneManager.LoadScene(2);
     }
+    public void Map1()
+    {
+        SceneManager.LoadScene(11);
+    }
+    public void Map2()
+    {
+        SceneManager.LoadScene(12);
+    }
 }

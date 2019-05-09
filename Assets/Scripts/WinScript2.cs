@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class WinScript2 : MonoBehaviour
 {
@@ -17,6 +18,11 @@ public class WinScript2 : MonoBehaviour
 		{
 			Debug.Log("YOU WIN!!");
 			winText.text = "Level Complete!";
-		}
+            WaitForSecondsRealtime(10);
+        }
 	}
+    private void WaitForSecondsRealtime(int v)
+    {
+        SceneManager.LoadScene(2);
+    }
 }
