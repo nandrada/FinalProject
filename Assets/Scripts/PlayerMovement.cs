@@ -11,14 +11,16 @@ public class PlayerMovement : MonoBehaviour
     public Vector3 startingPosition;
 	public float RotateSpeed = 30.0f;
 
-    // Create a temporary reference to the current scene.
-    Scene currentScene = SceneManager.GetActiveScene();
+  
 
     // Retrieve the name of this scene.
     
 // Start is called before the first frame update
 void Start()
 	{
+		// Create a temporary reference to the current scene.
+		Scene currentScene = SceneManager.GetActiveScene();
+
 		rb = GetComponent<Rigidbody>();
 
         string sceneName = currentScene.name;
